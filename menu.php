@@ -5,8 +5,8 @@
     <li <?php if($link == "taches"): echo "class='active'"; endif; ?>>
         <a href="taches.php">Taches</a>
     </li>
-    <li>
-        <a href="#">Veille</a>
+    <li <?php if($link == "veille"): echo "class='active'"; endif; ?>>
+        <a href="veille.php">Veille</a>
     </li>
     <li <?php if($link == "chiffre"): echo "class='active'"; endif; ?>>
         <a href="chiffres.php">Chiffre d'affaire</a>
